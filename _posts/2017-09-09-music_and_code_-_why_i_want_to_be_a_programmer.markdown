@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Music and Code - Why I Want to be a Programmer"
-date:   2017-09-09 18:23:51 +0000
+title:  "Music and Code"
+date:   2017-09-09 14:23:51 -0400
 ---
 
 

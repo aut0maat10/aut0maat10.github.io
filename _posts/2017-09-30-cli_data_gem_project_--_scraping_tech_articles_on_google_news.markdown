@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CLI Data Gem Project – Scraping Tech Articles on Google News"
+title:  "CLI Data Gem Project -- Scraping Tech Articles on Google News"
 date:   2017-09-30 13:48:53 -0400
 ---
 

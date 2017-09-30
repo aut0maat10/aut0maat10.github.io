@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "CLI Data Gem Project -- Scraping Tech Articles on Google News"
-date:   2017-09-30 17:48:52 +0000
+title:  "CLI Data Gem Project – Scraping Tech Articles on Google News"
+date:   2017-09-30 13:48:53 -0400
 ---
 
 
 For my first Flatiron School portfolio project (aka the CLI Data Gem Project) I built a news reader gem that scrapes Google News for technology-related articles, provides a list of articles, and allows the user to specify which article they would like to read.
 
-***Tech Stack:** 
+**Tech Stack:** 
 
-*Ruby/Bundler
+Ruby/Bundler
 OpenURI
-Nokogiri*
+Nokogiri
 
 ![](https://imgur.com/WBT4hyE)
 

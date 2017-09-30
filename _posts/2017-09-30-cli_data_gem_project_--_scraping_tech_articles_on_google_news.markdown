@@ -9,6 +9,7 @@ For my first Flatiron School portfolio project (aka the CLI Data Gem Project) I 
 
 **Tech Stack:** 
 Ruby/Bundler, OpenURI, Nokogiri
+
 [GitHub repo here](https://github.com/aut0maat10/tech-news-cli-app)
 
 ![](https://i.imgur.com/WBT4hyE.png?1)

@@ -50,7 +50,7 @@ I created a class method **#scrape_google** to select an article’s headlines a
 
 ![](https://i.imgur.com/DH1b5L2.png)
 
-**It works! **
+**It Works!**
 
 And there we have it — a working CLI news reader gem that selects and returns the latest Tech headlines from Google News, allows the user to enter a number that corresponds with the article they want to read, and the program returns the title and the URL of the article. This was a very interesting project, and I learned a lot about how Ruby modules and objects interact with each other. Moreover, I learned about the structure of Ruby Gems and CLIs, plus how to scrape the web with Nokogiri. 
 

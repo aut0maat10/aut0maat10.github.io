@@ -8,10 +8,7 @@ date:   2017-09-30 13:48:53 -0400
 For my first Flatiron School portfolio project (aka the CLI Data Gem Project) I built a news reader gem that scrapes Google News for technology-related articles, provides a list of articles, and allows the user to specify which article they would like to read.
 
 **Tech Stack:** 
-
-Ruby/Bundler
-OpenURI
-Nokogiri
+Ruby/Bundler, OpenURI, Nokogiri
 
 ![](https://i.imgur.com/WBT4hyE.png?1)
 

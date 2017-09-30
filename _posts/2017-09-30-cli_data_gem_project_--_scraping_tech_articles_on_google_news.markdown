@@ -13,7 +13,7 @@ Ruby/Bundler
 OpenURI
 Nokogiri
 
-![](https://imgur.com/WBT4hyE)
+![](https://i.imgur.com/DH1b5L2.png)
 
 **Project Requirements**
 

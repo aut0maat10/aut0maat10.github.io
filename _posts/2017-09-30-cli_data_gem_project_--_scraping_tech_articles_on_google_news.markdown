@@ -15,7 +15,7 @@ OpenURI
 
 Nokogiri
 
-![](https://i.imgur.com/DH1b5L2.png)
+![](https://i.imgur.com/WBT4hyE.png)
 
 **Project Requirements**
 
@@ -50,7 +50,7 @@ First, I looked at the Technology section in Google News and copied a few articl
 
 I created a class method **#scrape_google** to select an article’s headlines and urls on Google Technology News. This turned out to be not quite as easy as I had originally thought, but after selecting and iterating through the article XML elements and storing them in an array, I was able to select the attributes I wanted, i.e. the article title and the article url. With these attributes, I then iterated through the article array and created new instances of articles with the correct **@title** - and **@url** attributes for each article. All these new instances were then saved in the **#save** class method, accessible to the CLI through the **Article.all** method. 
 
-![](https://imgur.com/DH1b5L2)
+![](https://i.imgur.com/DH1b5L2.png)
 
 **It works! **
 

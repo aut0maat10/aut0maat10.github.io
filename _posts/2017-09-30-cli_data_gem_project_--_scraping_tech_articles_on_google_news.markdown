@@ -38,8 +38,6 @@ right away.
 
 My workflow was to start simple to get things running and add complexity and abstraction along the way. I started out creating the executable file tech-news in the bin, adding executable permissions and testing with a simple *“Hello World!”*
 
-![](https://i.ytimg.com/vi/zecueq-mo4M/maxresdefault.jpg)
-
 Next, I created a CLI class with a **#list_articles** method, a **#menu** method to ask for and deal with user input, a **#goodbye** method for when the user exits the program, and a **#call** method to bundle all these methods together. This method will then be called by the executable file tech-news to run the program. This structure keeps the executable file as clean as possible.  
 
 **Hard Coding First**

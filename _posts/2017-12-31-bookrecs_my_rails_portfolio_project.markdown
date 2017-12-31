@@ -1,16 +1,16 @@
 ---
 layout: post
 title:      "BookRecs – My Rails Portfolio Project  "
-date:       2017-12-31 18:47:31 +0000
+date:       2017-12-31 13:47:32 -0500
 permalink:  bookrecs_my_rails_portfolio_project
 ---
 
 
-##### For my Rails Portfolio Project for the Flatiron School, I decided to build an app for book recommendations and reviews. The app is inspired by Goodreads, and I call it BookRecs. 
+#### For my Rails Portfolio Project for the Flatiron School, I decided to build an app for book recommendations and reviews. The app is inspired by Goodreads, and I call it BookRecs. 
 
 ![](https://i.imgur.com/dKzLcay.png)
 
-### Project Requirements: 
+### Project Requirements:&#x2028;
 
 * Use Rails framework
 * Models must include a has_many, a belongs_to, and a has_many_through relationship
@@ -48,7 +48,7 @@ The hardest part was getting the Google OmniAuth to work properly with Devise, a
 
 Finally, I worked on user authorization, and made sure that you can only view and create books if you’re signed in. Moreover, I made sure that only the user that created the book can edit it and delete it. I also added the same features for reviews. This means that I had to tweak the associations between models a little bit, adding a user_id column to the books table. 
 
-##### And finally, the first version of the BookRecs app is done! This was a fun project and a great introduction to working with Ruby on Rails. 
+#### And finally, the first version of the BookRecs app is done! This was a fun project and a great introduction to working with Ruby on Rails. 
 
 ![](https://i.imgur.com/IOQ3Lqr.png)
 

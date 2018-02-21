@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "React Refactoring: Separate Container from Presentational Component"
-date:       2018-02-21 20:37:28 +0000
+title:      "React Refactoring: Separate Presentational Component from Container"
+date:       2018-02-21 15:37:29 -0500
 permalink:  react_refactoring_separate_container_from_presentational_component
 ---
 

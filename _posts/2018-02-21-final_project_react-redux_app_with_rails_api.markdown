@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Final Project: React-Redux App with Rails API"
-date:       2018-02-21 17:20:26 +0000
+date:       2018-02-21 12:20:27 -0500
 permalink:  final_project_react-redux_app_with_rails_api
 ---
 
@@ -20,7 +20,7 @@ I started out by setting up the backend. This was the first time running rails i
 
 ![](http://i.imgur.com/52dzxj9.png)
 
-In order to run the app locally, you need to launch both the Webpack server and the API server. To handle this, I set up Foreman, which is a utility for handling multiple processes. All you need to do is declare the two processes in a Procfile, and then the client app will run on `localhost:3000` and the API will be listening on ` localhost:3001`. In order to boot [Foreman](http://github.com/ddollar/foreman), you just run `foreman start -p 3000`  . Even better, you can add a Rake task:
+In order to run the app locally, you need to launch both the Webpack server and the API server. To handle this, I set up Foreman, which is a utility for handling multiple processes. All you need to do is declare the two processes in a Procfile, and then the client app will run on `localhost:3000` and the API will be listening on  `localhost:3001` . In order to boot [Foreman](http://github.com/ddollar/foreman), you just run `foreman start -p 3000`  . Even better, you can add a Rake task:
 
 ```
 task :start do

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Selection Sort"
-date:       2018-04-11 17:47:17 +0000
+title:      "Sorting Algorithms 2: Selection Sort"
+date:       2018-04-11 13:47:18 -0400
 permalink:  selection_sort
 ---
 

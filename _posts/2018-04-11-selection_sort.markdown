@@ -14,21 +14,22 @@ Selection sort loops over positions (indices) in the array, comparing the curren
 
 ![Selection sort visualization](http://codepumpkin.com/wp-content/uploads/2017/10/SelectionSort_Avg_case.gif)
 
-## Pseudocode
-**Example: sort an array of numbers using selection sort**
+**Pseudocode**
+
+*Example: sort an array of numbers using selection sort*
 
 1. Find the smallest number. Swap it with the first number.
 2. Find the second-smallest number. Swap it with the second number.
 3. Find the third-smallest number. Swap it with the third number.
 4. Repeat until the array is sorted.
 
-## Swap
+**Swap**
 
 A common step in many sorting algorithms is to swap two elements in an array. Here's an example of a simple swapping function:
 
 ![](https://i.imgur.com/gObVnC0.png)
 
-## Find Index of Smallest Number
+**Find Index of Smallest Number**
 
 Another key element of selection sort is to find the index of the smallest number in the subarray. We can do that with another helper function:
 
@@ -46,7 +47,7 @@ This is how you would implement selection sort using the helper functions explai
 
 
 
-## Sources: 
+**Sources: **
 
 [Big-O Cheat Sheet](http://bigocheatsheet.com/)
 

@@ -47,7 +47,7 @@ This is how you would implement selection sort using the helper functions explai
 
 
 
-**Sources: **
+**Sources**
 
 [Big-O Cheat Sheet](http://bigocheatsheet.com/)
 

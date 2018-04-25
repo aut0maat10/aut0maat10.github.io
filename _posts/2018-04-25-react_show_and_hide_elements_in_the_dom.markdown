@@ -38,7 +38,7 @@ Next, we are going to add the click handler on the button. We set up a `showPers
 
 ![](https://i.imgur.com/zAJnIEW.png)
 
-Now, we’re going to create the `showPersonHandler`. In this function, we store the state of our `showPerson` in a variable, let's call it ` isVisible`. Next, we are going to update the state to the opposite of the current boolean value of `isVisible`, using the [logical NOT operator](https://docs.microsoft.com/en-us/scripting/javascript/reference/logical-not-operator-decrement-exclpt-javascript).
+Now, we’re going to create the showPersonHandler. In this function, we store the state of our `showPerson` in a variable, let's call it ` isVisible`. Next, we are going to update the state to the opposite of the current boolean value of `isVisible`, using the [logical NOT operator](https://docs.microsoft.com/en-us/scripting/javascript/reference/logical-not-operator-decrement-exclpt-javascript).
 
 **Wrapping Up**
 

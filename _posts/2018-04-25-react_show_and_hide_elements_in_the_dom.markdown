@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React: Show and Hide Elements in the DOM"
-date:       2018-04-25 20:45:10 +0000
+date:       2018-04-25 16:45:11 -0400
 permalink:  react_show_and_hide_elements_in_the_dom
 ---
 
@@ -33,7 +33,7 @@ Of course nothing happens when we click the Toggle button, since we haven’t se
 
 # Add Click Handler
 
-Next, we are going to add the click handler on the button. We set up a `showPersonHandler` , which will be executed when the button is clicked.
+Next, we are going to add the click handler on the button. We set up a `showPersonHandler` , which will be executed when the button is clicked:
 
 ![](https://i.imgur.com/zAJnIEW.png)
 

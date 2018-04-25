@@ -12,7 +12,8 @@ One of the things I practiced this week is how to show and hide an element in th
 
 I’m using [CodePen](https://codepen.io/), since it’s a great tool for practicing your coding skills. Check out the final React component [here](https://codepen.io/aut0maat10/pen/MGePJX). 
 
-# Getting Started
+**Getting Started**
+
 So, let's get started. After setting up the environment for React, we're going to add a simple `div` to the HTML section where our component will be displayed:
 
 ![](https://i.imgur.com/yY1UmwX.png)
@@ -31,7 +32,7 @@ Of course nothing happens when we click the Toggle button, since we haven’t se
 
 ![](https://i.imgur.com/FTXsIdu.png)
 
-# Add Click Handler
+**Add Click Handler**
 
 Next, we are going to add the click handler on the button. We set up a `showPersonHandler` , which will be executed when the button is clicked:
 
@@ -39,7 +40,7 @@ Next, we are going to add the click handler on the button. We set up a `showPers
 
 Now, we’re going to create the `showPersonHandler`. In this function, we store the state of our `showPerson` in a variable, let's call it ` isVisible`. Next, we are going to update the state to the opposite of the current boolean value of `isVisible`, using the [logical NOT operator](https://docs.microsoft.com/en-us/scripting/javascript/reference/logical-not-operator-decrement-exclpt-javascript).
 
-# Wrapping Up
+**Wrapping Up**
 
 One more thing: We need to add a conditional to our `render` function. First, we set our person variable to `null`. Then, we add an **if statement**. If `this.state.showPerson` is `true`, we want to show the element stored in our` person` variable in the DOM. Else, our person variable will be set to `null`, and nothing will be shown. 
 

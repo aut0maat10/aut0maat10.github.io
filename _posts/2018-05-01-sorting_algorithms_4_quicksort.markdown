@@ -40,7 +40,7 @@ Next, we pick the last element in the array and call it the `pivot`. We also dec
 
 ![](https://i.imgur.com/KU9xDEN.png)
 
-Then, we loop through the original array and push elements smaller than the `pivot` to the `left` array. Elements greater than the `pivot` go into the `right` array.
+Then, we loop through the original array and push elements smaller than the `pivot` to the `left` array. Elements greater than the `pivot` go into the `right` array. Note that we stop at the second to last element ( nums.length -1), since the `pivot`, which is the last element, should not be included.
 
 ![](https://i.imgur.com/X8KLMnN.png)
 

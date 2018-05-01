@@ -28,13 +28,11 @@ Quicksort can be a bit hard to visualize at first, but [here's a good video walk
 ![Quicksort Visualization](https://img.wonderhowto.com/img/46/71/63594498633292/0/sorting-part-6-0-quick-sort-sorta-efficient.w654.jpg)
 ([Image source](https://0x00sec.org/t/sorting-part-6-0-quick-sort-sorta-efficient/202))
 
-We recursively call quicksort on the left and right arrays until we come up with a base case, i.e. an array of zero or one elements, since an array with a single element is sorted by default.
-
 After left and right are sorted, we concatenate left, pivot, and right (in that order).
 
 **JavaScript Implementation**
 
-We start by declaring a function `quickSort` that takes an array (of numbers in this case) as an argument. Then, we establish the base case, i.e. an array with zero or one elements.
+We start by declaring a function `quickSort` that takes an array (of numbers in this case) as an argument. Then, we establish the base case, i.e. an array with zero or one elements (an array with a single element is effectively sorted)
 
 ![](https://i.imgur.com/qJYaEM7.png)
 

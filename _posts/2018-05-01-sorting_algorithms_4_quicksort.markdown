@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sorting Algorithms 4: Quicksort"
-date:       2018-05-01 20:52:38 +0000
+date:       2018-05-01 16:52:39 -0400
 permalink:  sorting_algorithms_4_quicksort
 ---
 
@@ -10,7 +10,7 @@ permalink:  sorting_algorithms_4_quicksort
 
 ![](http://thetechnicgear.com/wp-content/uploads/2014/02/sorting-lego.jpg)
 
-**Quicksort** is one of the most powerful sorting algorithms out there. Like [merge sort](http://electricsauna.net/sorting_algorithms_3_merge_sort), quicksort is a [divide-and conquer ](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms) algorithm, which means it is *recursive*. You will need to have a solid understanding of [recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science) in order to effectively implement quicksort.
+**Quicksort** is one of the most powerful sorting algorithms out there. Like [merge sort](http://electricsauna.net/sorting_algorithms_3_merge_sort), quicksort is a [divide-and conquer ](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms) algorithm, which means it is *recursive*. You will need to have a solid understanding of [recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science)) in order to effectively implement quicksort.
 
 Quicksort and merge sort use divide and conquer in slightly different ways. In merge sort, the divide step hardly does anyting, and the real power lies within the merge phase. Quicksort is pretty much the opposite, since the divide step is where the magic happens, while the merge phase does nothing.
 

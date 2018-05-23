@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Data Structures in JavaScript: Queue"
-date:       2018-05-23 21:16:18 +0000
+date:       2018-05-23 17:16:19 -0400
 permalink:  data_structures_in_javascript_queue
 ---
 
@@ -31,4 +31,4 @@ Now we can create our own queue, and enqueue/dequeue elements (in this case: dog
 
 [CS50: Queues](https://study.cs50.net/queues)
 
-[Wikipedia: Queue (abstract data type)](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+[Wikipedia: Queue (abstract data type)](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))

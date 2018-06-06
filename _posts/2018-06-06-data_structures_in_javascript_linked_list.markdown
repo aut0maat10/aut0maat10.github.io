@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Data Structures in JavaScript: Linked List"
-date:       2018-06-06 22:55:40 +0000
+title:      "Data Structures in JavaScript: (Singly) Linked List"
+date:       2018-06-06 18:55:41 -0400
 permalink:  data_structures_in_javascript_linked_list
 ---
 

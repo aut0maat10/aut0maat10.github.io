@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Find Duplicates in String with JS reduce() "
-date:       2018-07-04 22:47:11 +0000
+date:       2018-07-04 18:47:12 -0400
 permalink:  find_duplicates_in_string_with_js_reduce
 ---
 
@@ -33,7 +33,7 @@ console.log(reduced) // => 15
 
 In our case, we want to find and return duplicates in a string. First, we split our input string into an array, and call `reduce()` on that array. The trick here is setting the `initialValue` of `reduce()` to an array (line 7 in the example below), and then we can push duplicates to that array. 
 
-The callback also takes parameters for `currentElement`, `currentIndex`, and ` arr` (which in this case refers to the input string split into an array of characters). Next, we use `indexOf()` to compare for duplicates, and if we get an indication of duplicates, we push the character to the `duplicatesArr`. 
+The callback also takes parameters for `currentElement`, `currentIndex`, and `arr` (which in this case refers to the input string split into an array of characters). Next, we use `indexOf()` to compare for duplicates, and if we get an indication of duplicates, we push the character to the `duplicatesArr`. 
 
 To avoid duplicates in the duplicatesArray, we also check for the current element there (`indexOf()` returns `-1` if current element is not found). The final code looks like this:
 

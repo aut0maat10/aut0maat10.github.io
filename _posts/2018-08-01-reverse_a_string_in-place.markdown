@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Reverse a String In-Place"
-date:       2018-08-01 20:59:52 +0000
+title:      "Reverse Characters In-Place"
+date:       2018-08-01 16:59:53 -0400
 permalink:  reverse_a_string_in-place
 ---
 
